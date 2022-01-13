@@ -1,0 +1,47 @@
+@import '../base/tipografia';
+@import '../base/colores';
+@import './grid';
+
+/*footer*/
+
+.footer{
+    grid-area: footer1;
+    display: flex;
+    background-color:$color4;
+    height: auto;
+
+    .row{
+        align-items: center;
+        justify-content: space-evenly;
+
+        .footer__div{
+            display: flex;
+
+            .footer__icono{
+                width: 90px;
+                height: auto;
+            }
+        }
+
+        .col-lg-4 .col-md-6{
+            margin: 0;
+        }
+
+        .footer__div__nav{
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                padding:0;
+                font-size: 0.9rem;
+            }
+
+            a:hover{
+                color: $color1;
+                background-color: transparent;
+            }
+        }
+    }
+}

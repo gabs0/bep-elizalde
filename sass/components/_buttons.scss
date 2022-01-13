@@ -1,0 +1,32 @@
+/*botones*/ 
+@import '../base/colores';
+
+$shadow-button:0 0 40px -10px #000;
+
+.section__div__botones{
+    z-index: 998;
+
+    .boton{
+        border-radius: 10px;
+        display: inline-block;
+        padding: 5px 20px;
+        box-shadow:$shadow-button;
+    }
+
+    .boton--blanco{
+        color: $color1 ;
+        background-color: $color8 ;
+    }
+
+    .boton--blanco:hover{
+        color:$color8;
+        background-color: $color4 ;
+    }
+
+    .boton--blanco:active{
+        background-color: $color2;
+    }
+
+
+
+}

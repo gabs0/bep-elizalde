@@ -1,0 +1,71 @@
+
+@import '../base/tipografia';
+@import '../base/colores';
+@import './grid';
+
+/*header*/
+
+.header{
+    grid-area: header1;
+    position: relative;
+    background-color: $color2;
+    box-sizing: border-box;
+
+    .header__nav{
+        padding: 1rem;
+
+        .navbar-nav{
+            align-items: center;
+        }
+    
+        button{
+            border-color: transparent;
+        }
+    
+        .navbar-dark .navbar-nav .nav-link {
+            color:$color8;
+        }
+    
+        .header__icono{
+            width: 90px;
+            height: auto;
+        }
+    
+        .header__div__menu{
+            padding: 1.2rem;
+
+            a:hover{
+                background-color: $color5;
+                border-radius: 15px;
+            }
+    
+            a{
+                font-family: $subtitulos-textos;
+                color: $color8;
+                padding:0.5rem;
+            }
+    
+            ul{
+                ul{
+                    li{
+                        display: block;
+                    }
+                }
+    
+                li:hover > ul{
+                    display: block;
+                }
+            }
+    
+            .header__nav__submenu{
+                background-color:$color2;
+    
+                .dropdown-item:hover{
+                    background-color: $color6;
+                }
+            }
+        }
+    
+    }
+    
+}

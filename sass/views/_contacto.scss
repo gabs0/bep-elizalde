@@ -1,0 +1,81 @@
+@import '../base/tipografia';
+@import '../base/colores';
+@import '../layout/grid';
+
+/*SECCION: Contacto*/
+
+.section__div__article{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:0 auto;
+
+    .section__div__formulario{
+        flex-basis: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+        width: 80vw;
+        height: fit-content;
+        background-color:$color7;
+        border-radius: 9px;
+        font-family:  $titulos;
+        font-size: 1rem;
+        position: relative;
+        text-align: left;
+        margin:0 auto;
+
+        fieldset{
+            border:none;
+            padding: 15px 30px;
+
+            .section__div__campo{
+                padding: 5px;
+
+                label{
+                    width: 75vw;
+                }
+
+                input, textarea{
+                    border: solid 1px $color3;
+                    font-size: 1rem;
+                    
+                }
+
+                .campo, textarea{
+                    width:100%;
+                    background-color: $color9;
+                }
+
+                .campo:focus{
+                    border-color:$color1;
+                }
+
+        
+            }
+
+            .section__div__check{
+                padding: 5px;
+                
+            }
+        }
+    }
+}
+
+input{
+    outline: none;
+    border:none;
+    padding: 8px;
+    border-radius: 9px;
+    font-size: 1rem;
+    
+}
+
+textarea{
+    outline: none;
+    border:none;
+    padding: 8px;
+    width: 20vw;
+    border-radius: 9px;
+    font-size: 1rem;
+    
+}

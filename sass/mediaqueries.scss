@@ -1,0 +1,265 @@
+/* media queries */
+
+
+@media (max-width: 1200px){
+
+    /* títulos */
+    .display-1{
+        font-size: 5rem;
+    }
+
+    /* titulo h3 */
+    .section__div__tercertitulo{
+        h3{
+            font-size: 1.4rem;
+        }
+        
+    }
+
+}
+
+@media (max-width:992px){
+    /* footer */
+
+    .footer{
+        .footer__div{
+            justify-content: center;
+        }
+
+        .footer__div__nav{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    
+
+    .section--quienessomos{
+
+        .container-fluid{
+            /* card */
+            .section__div--contadoras{
+                box-sizing: border-box;
+                display: flex;
+            }
+        }
+        
+    }  
+}
+
+@media (max-width:860px){ 
+
+
+    /* header */
+    .header{
+        .header__nav{
+            .header__div__menu{
+                a{
+                    font-size: 0.95rem;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width:815px){
+    /* header */
+    .header{
+        .header__nav{
+            .header__div__menu{
+                a{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    /* títulos */
+    .display-1{
+        font-size: 4rem;
+    }
+
+    /* titulo h3 */
+    .section__div__tercertitulo{
+        h3{
+            font-size: 1.2rem;
+        }
+    }
+
+    /* texto */
+    p{
+        font-size: 1rem;
+    }
+
+    /* contenedor titulos */
+    .section__div__titulo, 
+    .section__div__titulo--acercaDe{
+        margin-bottom: 20px;
+    }
+
+    /* quienes somos seccion */
+    .section--quienessomos{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:760px){
+    /* footer */
+    .footer__div__nav{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:620px){
+    /* header */
+    .header{
+        .header__nav{
+            .header__div__menu{
+                a{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:592px){
+    /* header */
+    .header{
+        .header__nav{
+            .header__div__menu{
+                a{
+                    font-size: 0.75rem;
+                }
+            }
+        }
+    }
+
+    /* títulos */
+    .display-1{
+        font-size: 3.5rem;
+    }
+
+    /* titulo h3 */
+    .section__div__tercertitulo{
+        h3{
+            font-size: 1rem;
+        }
+    }
+
+    /* texto */
+    p{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:576.5px){
+    /* header icono */
+    /* header icono */
+    .header{
+        .header__nav{
+            .header__icono{
+                width: 80px;
+                height: auto;
+            }
+        }
+    }
+
+    /*footer*/
+    .footer{
+        .row{
+            .footer__div{
+                .footer__icono{
+                    width: 80px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:505px){
+    /* títulos */
+    .display-1{
+        font-size: 3.2rem;
+    }
+
+    /* titulo h3 */
+    .section__div__tercertitulo{
+        h3{
+            font-size: 0.97rem;
+        }
+        
+    }
+
+    /* texto */
+    p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:470px){
+    /* header icono */
+    .header{
+        .header__nav{
+            .header__icono{
+                width: 70px;
+                height: auto;
+            }
+        }
+    }
+    
+    /*footer*/
+    .footer{
+        .row{
+            .footer__div{
+                .footer__icono{
+                    width: 70px;
+                    height: auto;
+                }
+            }
+            .footer__div__nav {
+                a{
+                    font-size: 0.85rem;
+                }
+                
+            }
+        }
+    }
+
+    /* títulos */
+    .display-1{
+        font-size: 3rem;
+    }
+
+    /* titulo h3 */
+    .section__div__tercertitulo{
+        h3{
+            font-size: 0.9rem;
+        }
+        
+    }
+
+    /* texto */
+    p{
+        font-size: 0.86rem;
+    }
+    
+
+}
+
+@media (max-width:440px){
+    /* títulos */
+    .display-1{
+        font-size: 2.5rem;
+    }
+
+    /* titulo h3 */
+    .section__div__tercertitulo {
+        h3{
+            font-size: 0.85rem;
+        }
+        
+    }
+}
