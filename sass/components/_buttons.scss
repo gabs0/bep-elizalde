@@ -14,17 +14,17 @@ $shadow-button:0 0 40px -10px #000;
     }
 
     .boton--blanco{
-        color: $color1 ;
-        background-color: $color8 ;
+        color: map-get($colors, "color1");
+        background-color: map-get($colors, "color8");
     }
 
     .boton--blanco:hover{
-        color:$color8;
-        background-color: $color4 ;
+        color: map-get($colors, "color8");
+        background-color: map-get($colors, "color4"); ;
     }
 
     .boton--blanco:active{
-        background-color: $color2;
+        background-color: map-get($colors, "color4");;
     }
 
 

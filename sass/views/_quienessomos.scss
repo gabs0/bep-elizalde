@@ -40,7 +40,7 @@ $border-card:1px solid #686f86;
                 }
 
                 p{
-                    color: $color10;
+                    color:map-get($colors, "color10");;
                     font-size: 1rem; 
                     z-index: 998;
                     text-align: center;

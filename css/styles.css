@@ -1,14 +1,5 @@
 @charset "UTF-8";
-/*grids*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
-.grid {
-  display: grid;
-  grid-template-areas: "header1" "imgInformacion" "footer1";
-}
 
 /*tipografia*/
 h1, h2, label {
@@ -76,26 +67,6 @@ h1, h2, h3, h4, h5, p, nav a {
 }
 .header .header__nav .header__div__menu .header__nav__submenu .dropdown-item:hover {
   background-color: #686f86;
-}
-
-/*tipografia*/
-h1, h2, label {
-  font-family: "Poppins", sans-serif;
-}
-
-h3, h4, h5, p, input, nav a {
-  font-family: "Sintony", sans-serif;
-}
-
-/*paleta de colores*/
-h1, h2, h3, h4, h5, p, nav a {
-  color: #ffffff;
-}
-
-/*grids*/
-.grid {
-  display: grid;
-  grid-template-areas: "header1" "imgInformacion" "footer1";
 }
 
 /*footer*/
@@ -220,26 +191,6 @@ section, .section--contacto, .section--quienessomos, .section--servicios, .secti
   position: absolute;
 }
 
-/*tipografia*/
-h1, h2, label {
-  font-family: "Poppins", sans-serif;
-}
-
-h3, h4, h5, p, input, nav a {
-  font-family: "Sintony", sans-serif;
-}
-
-/*paleta de colores*/
-h1, h2, h3, h4, h5, p, nav a {
-  color: #ffffff;
-}
-
-/*grids*/
-.grid {
-  display: grid;
-  grid-template-areas: "header1" "imgInformacion" "footer1";
-}
-
 /*SECCION: Contacto*/
 .section--contacto .container-fluid {
   box-sizing: border-box;
@@ -295,27 +246,6 @@ h1, h2, h3, h4, h5, p, nav a {
   color: #ffffff;
 }
 
-/*SECCION:quienes somos*/
-/*paleta de colores*/
-h1, h2, h3, h4, h5, p, nav a {
-  color: #ffffff;
-}
-
-/*grids*/
-.grid {
-  display: grid;
-  grid-template-areas: "header1" "imgInformacion" "footer1";
-}
-
-/*tipografia*/
-h1, h2, label {
-  font-family: "Poppins", sans-serif;
-}
-
-h3, h4, h5, p, input, nav a {
-  font-family: "Sintony", sans-serif;
-}
-
 .section--quienessomos .container-fluid .section__div__segundotitulo {
   position: relative;
 }
@@ -369,95 +299,32 @@ h3, h4, h5, p, input, nav a {
   transition: 0.8s ease-in-out;
 }
 
-/* SECCION: servicios */
-/*tipografia*/
-h1, h2, label {
-  font-family: "Poppins", sans-serif;
-}
 
-h3, h4, h5, p, input, nav a {
-  font-family: "Sintony", sans-serif;
-}
-
-/*paleta de colores*/
-h1, h2, h3, h4, h5, p, nav a {
-  color: #ffffff;
-}
-
-/*grids*/
-.grid {
-  display: grid;
-  grid-template-areas: "header1" "imgInformacion" "footer1";
-}
-
-.section__div__table {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  width: 95vw;
-  margin: 8vh 1vw;
-}
-
-.servicio {
+.section--servicios .container-fluid .card-deck .card {
   background-color: rgba(255, 255, 255, 0.705);
-  border-right: 1px solid #686f86;
+  max-height: 750px;
   border-radius: 15px;
-  width: 19%;
-  height: 80%;
-  margin: 10px;
-  padding-bottom: 9px;
-  align-items: center;
-  position: relative;
 }
-
-.servicio__imagen {
-  display: flex;
-  justify-self: center;
-  padding-top: 10px;
+.section--servicios .container-fluid .card-deck .card h2 {
+  font-size: 1.5rem;
+  color: #0C1726;
+  text-align: center;
+}
+.section--servicios .container-fluid .card-deck .card .servicio__imagen {
   width: 90px;
   height: auto;
   margin: 0 auto;
+  align-self: center;
 }
-
-.servicio__tipo {
+.section--servicios .container-fluid .card-deck .card .list-group {
   font-family: "Poppins", sans-serif;
-  color: #0C1726;
-  margin-bottom: 8px;
-  letter-spacing: 1px;
-  text-align: center;
+  font-size: 0.8rem;
 }
-
-.servicio__tipo h2 {
-  font-size: 1.5rem;
-}
-
-.servicio__detalle {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 0.75rem;
-  width: 17vw;
-  list-style: none;
-  text-align: center;
-  color: #0C1726;
-}
-
-.servicio__detalle__item {
-  width: 100%;
-  border-top: 1px solid #8692b8;
-  padding: 7px;
-}
-
-.servicio:last-child {
-  border-right: none;
+.section--servicios .container-fluid .card-deck .card .list-group .list-group-item {
+  background-color: transparent;
 }
 
 /*botones*/
-/*paleta de colores*/
-h1, h2, h3, h4, h5, p, nav a {
-  color: #ffffff;
-}
 
 .section__div__botones {
   z-index: 998;
@@ -477,7 +344,7 @@ h1, h2, h3, h4, h5, p, nav a {
   background-color: #555C73;
 }
 .section__div__botones .boton--blanco:active {
-  background-color: #1B2740;
+  background-color: #555C73;
 }
 
 * {

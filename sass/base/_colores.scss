@@ -1,25 +1,30 @@
 /*paleta de colores*/
 $color1:#0C1726;
-
 $color2:#1B2740; 
-
 $color3:#8692b8;
-
 $color4:#555C73;
-
 $color5:#686f86b4;
-
 $color6:#686f86;
-
 $color7:#c5ced98a;
-
 $color8: #ffffff;
-
 $color9:#ffffff94;
-
 $color10:#151b25;
 
+// map
+$colors:(
+    "color1":$color1,
+    "color2":$color2,
+    "color3":$color3,
+    "color4":$color4,
+    "color5":$color5,
+    "color6":$color6,
+    "color7":$color7,
+    "color8":$color8,
+    "color9":$color9,
+    "color10":$color10,
+);
+
 h1,h2,h3,h4,h5,p, nav a{
-    color: $color8;
+    color: map-get($colors, "color8");
 }
 

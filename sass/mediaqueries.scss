@@ -1,5 +1,28 @@
 /* media queries */
+@media (max-width:1400px){
+    // servicios
+    .section--servicios{
+        .container-fluid{
+            .card-deck{
+                .card{
+                    max-height:750px;
+                    h2{
+                        font-size: 1.2rem;
+                    }
+                    .servicio__imagen{
+                        width: 80px;
+                        height: auto;
+                    }
+                    .list-group{ 
+                        font-size: 0.7rem;
+                        
+                    }
+                }
+            }
+        }
+    }
 
+}
 
 @media (max-width: 1200px){
 
@@ -16,6 +39,56 @@
         
     }
 
+    // servicios
+    .section--servicios{
+        .container-fluid{
+            .card-deck{
+                .card{
+                    min-width:250px;
+                    align-items: center;
+                    margin: 15px;
+                    h2{
+                        font-size: 1.1rem;
+                    }
+                    .servicio__imagen{
+                        width: 70px;
+                        height: auto;
+                    }
+                    .list-group{ 
+                        font-size: 0.65rem;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:1000px){
+    // servicios
+    .section--servicios{
+        .container-fluid{
+            box-sizing: border-box;
+            .card-deck{
+                
+                .card{
+                    max-width: 100px;
+                    h2{
+                        font-size: 1rem;
+                    }
+                    .servicio__imagen{
+                        width: 60px;
+                        height: auto;
+                    }
+                    .list-group{ 
+                        font-size: 0.6rem;
+                        
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width:992px){
@@ -58,6 +131,8 @@
             font-size: 2.2rem;
         }
     }
+
+    
 }
 
 @media (max-width:860px){ 
@@ -100,6 +175,8 @@
         }
         
     }  
+
+    
     
 }
 
