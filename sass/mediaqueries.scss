@@ -33,17 +33,31 @@
     }
     
 
+    // seccion quienes somos
     .section--quienessomos{
-
         .container-fluid{
             /* card */
             .section__div--contadoras{
                 box-sizing: border-box;
                 display: flex;
+                .card{
+                    h4{
+                        font-size: 1.1rem;
+                    }
+                    p{
+                        font-size: 0.9rem;
+                    }
+                }
             }
         }
         
-    }  
+    } 
+    
+    .section__div__titulo--contacto {
+        h1{
+            font-size: 2.2rem;
+        }
+    }
 }
 
 @media (max-width:860px){ 
@@ -59,6 +73,33 @@
             }
         }
     }
+
+    // seccion quienes somos
+    .section--quienessomos{
+        div{
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+        .container-fluid{
+
+            margin-top: 150px;
+            /* card */
+            .section__div--contadoras{
+                box-sizing: border-box;
+                display: flex;
+                .card{
+                    h4{
+                        font-size: 1.1rem;
+                    }
+                    p{
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+        
+    }  
     
 }
 
@@ -108,8 +149,44 @@
     .footer__div__nav{
         text-align: center;
     }
+
+    // seccion quienes somos
+    .section--quienessomos{
+        .container-fluid{
+            .row{
+                .card{
+                    max-width: 350px;
+                    h4{
+                        font-size: 1.2rem;
+                    }
+                    p{
+                        font-size: 0.9rem;   
+                    }
+                }
+            }
+        }
+    }
+
 }
 
+@media (max-width:710px){
+    // seccion quienes somos
+    .section--quienessomos{
+        .container-fluid{
+            .row{
+                .card{
+                    max-width: 350px;
+                    h4{
+                        font-size: 1.1rem;
+                    }
+                    p{
+                        font-size: 0.85rem;   
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media (max-width:620px){
     /* header */
@@ -118,6 +195,46 @@
             .header__div__menu{
                 a{
                     font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+    //seccion contacto
+    .section__div__titulo--contacto {
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+    .section--contacto{
+        .container-fluid{
+            font-size:0.9rem ;
+        }
+    }
+
+    // seccion quienes somos
+    .section--quienessomos{
+        .container-fluid{
+            .row{
+                display: block;
+                
+                .card{
+                    margin: 0 auto;
+                    width: 270px;
+                    max-height: 120px;
+                    margin-bottom: 15px;
+
+                    .contadora{
+                        width: 80px;
+                    }
+                    
+                    h4{
+                        font-size: 1rem;
+                    }
+                    p{
+                        visibility: hidden;
+                    }
                 }
             }
         }
@@ -155,7 +272,6 @@
 }
 
 @media (max-width:576.5px){
-    /* header icono */
     /* header icono */
     .header{
         .header__nav{
@@ -196,6 +312,19 @@
     /* texto */
     p{
         font-size: 0.9rem;
+    }
+
+    //seccion contacto
+    .section__div__titulo--contacto {
+        h1{
+            font-size: 1.9rem;
+        }
+    }
+
+    .section--contacto{
+        .container-fluid{
+            font-size:0.85rem ;
+        }
     }
 }
 
@@ -261,5 +390,23 @@
             font-size: 0.85rem;
         }
         
+    }
+
+    //seccion contacto
+    .section__div__titulo--contacto {
+        h1{
+            font-size: 1.7rem;
+        }
+    }
+
+    .section--contacto{
+        .container-fluid{
+            font-size:0.8rem ;
+            fieldset{
+                .btn{
+                    font-size: 0.7rem;
+                }
+            }
+        }
     }
 }

@@ -36,12 +36,13 @@
             a{
                 padding:0;
                 font-size: 0.9rem;
+
+                &:hover{
+                    color: $color1;
+                    background-color: transparent;
+                }
             }
 
-            a:hover{
-                color: $color1;
-                background-color: transparent;
-            }
         }
     }
 }

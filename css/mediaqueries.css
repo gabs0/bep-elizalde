@@ -28,11 +28,39 @@
     box-sizing: border-box;
     display: flex;
   }
+  .section--quienessomos .container-fluid .section__div--contadoras .card h4 {
+    font-size: 1.1rem;
+  }
+  .section--quienessomos .container-fluid .section__div--contadoras .card p {
+    font-size: 0.9rem;
+  }
+
+  .section__div__titulo--contacto h1 {
+    font-size: 2.2rem;
+  }
 }
 @media (max-width: 860px) {
   /* header */
   .header .header__nav .header__div__menu a {
     font-size: 0.95rem;
+  }
+
+  .section--quienessomos div h2 {
+    font-size: 1.5rem;
+  }
+  .section--quienessomos .container-fluid {
+    margin-top: 150px;
+    /* card */
+  }
+  .section--quienessomos .container-fluid .section__div--contadoras {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .section--quienessomos .container-fluid .section__div--contadoras .card h4 {
+    font-size: 1.1rem;
+  }
+  .section--quienessomos .container-fluid .section__div--contadoras .card p {
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 815px) {
@@ -72,11 +100,59 @@
   .footer__div__nav {
     text-align: center;
   }
+
+  .section--quienessomos .container-fluid .row .card {
+    max-width: 350px;
+  }
+  .section--quienessomos .container-fluid .row .card h4 {
+    font-size: 1.2rem;
+  }
+  .section--quienessomos .container-fluid .row .card p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 710px) {
+  .section--quienessomos .container-fluid .row .card {
+    max-width: 350px;
+  }
+  .section--quienessomos .container-fluid .row .card h4 {
+    font-size: 1.1rem;
+  }
+  .section--quienessomos .container-fluid .row .card p {
+    font-size: 0.85rem;
+  }
 }
 @media (max-width: 620px) {
   /* header */
   .header .header__nav .header__div__menu a {
     font-size: 0.8rem;
+  }
+
+  .section__div__titulo--contacto h1 {
+    font-size: 2rem;
+  }
+
+  .section--contacto .container-fluid {
+    font-size: 0.9rem;
+  }
+
+  .section--quienessomos .container-fluid .row {
+    display: block;
+  }
+  .section--quienessomos .container-fluid .row .card {
+    margin: 0 auto;
+    width: 270px;
+    max-height: 120px;
+    margin-bottom: 15px;
+  }
+  .section--quienessomos .container-fluid .row .card .contadora {
+    width: 80px;
+  }
+  .section--quienessomos .container-fluid .row .card h4 {
+    font-size: 1rem;
+  }
+  .section--quienessomos .container-fluid .row .card p {
+    visibility: hidden;
   }
 }
 @media (max-width: 592px) {
@@ -101,7 +177,6 @@
   }
 }
 @media (max-width: 576.5px) {
-  /* header icono */
   /* header icono */
   .header .header__nav .header__icono {
     width: 80px;
@@ -128,6 +203,14 @@
   /* texto */
   p {
     font-size: 0.9rem;
+  }
+
+  .section__div__titulo--contacto h1 {
+    font-size: 1.9rem;
+  }
+
+  .section--contacto .container-fluid {
+    font-size: 0.85rem;
   }
 }
 @media (max-width: 470px) {
@@ -170,6 +253,17 @@
   /* titulo h3 */
   .section__div__tercertitulo h3 {
     font-size: 0.85rem;
+  }
+
+  .section__div__titulo--contacto h1 {
+    font-size: 1.7rem;
+  }
+
+  .section--contacto .container-fluid {
+    font-size: 0.8rem;
+  }
+  .section--contacto .container-fluid fieldset .btn {
+    font-size: 0.7rem;
   }
 }
 

@@ -16,17 +16,17 @@
     box-sizing: border-box;
 }
 
-.section--index{
-    background-image: url("../assets/img/solucionesempresariales.png");
+// EXTEND
+section{
     height:100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;   
-
 }
 
-.section--index:before{
+// MIXIN
+@mixin layer {
     content: "";
     background-color: $color1;
     width: 100%;
@@ -35,75 +35,54 @@
     position: absolute;
 }
 
+.section--index{
+    @extend section;
+    background-image: url("../assets/img/solucionesempresariales.png");
+
+    &:before{
+        @include layer();
+    }
+}
+
+
 /* acerca de */
 .section--acercaDe{
+    @extend section; 
     background-image: url("../assets/img/acercade.png");
-    height:100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-}
-.section--acercaDe:before{
-    content: "";
-    background-color:  $color1;
-    width: 100%;
-    height:100vh;
-    position: absolute;
-    opacity: 0.7;   
+
+    &:before{
+        @include layer();
+    }    
 }
 
 /* servicios */
 .section--servicios{
+    @extend section; 
     background-image: url("../assets/img/servicios.png");
-    height:100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-    align-items: center;
+
+    &:before{
+        @include layer();
+    }
 }
-.section--servicios:before{
-    content: "";
-    background-color:  $color1;
-    width: 100%;
-    height:100vh;
-    position: absolute;
-    opacity: 0.7;   
-}
+
 
 /* quienes somos */
 .section--quienessomos{
+    @extend section; 
     background-image: url("../assets/img/quienessomos.png");
-    height:100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-}
-.section--quienessomos:before{
-    content: "";
-    background-color:  $color1;
-    width: 100%;
-    height:100vh;
-    position: absolute;
-    opacity: 0.7;   
+
+    &:before{
+        @include layer();
+    }
 }
 
 /* contacto-formulario */
 .section--contacto{
+    @extend section; 
     background-image: url("../assets/img/contactanos.png");
-    height:100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-}
-.section--contacto:before{
-    content: "";
-    background-color:  $color1;
-    width: 100%;
-    height:100vh;
-    position: absolute;
-    opacity: 0.7;   
+
+    &:before{
+        @include layer();
+    }
+    
 }

@@ -8,45 +8,65 @@ $border-card:1px solid #686f86;
 .section--quienessomos{
 
     .container-fluid{
-
+        .section__div__segundotitulo{
+            position: relative;
+        }
         .row{
             align-items: center;
             justify-content: space-evenly;
-        }
-        
-        div{
-
+            .hoverZoom{
+                overflow: hidden;
+            }
             .card{
                 margin-top: 8px;
                 background-color: rgba(255, 255, 255, 0.747);
                 border-right: $border-card;
                 border-radius: 15px;
                 box-sizing: border-box;
+                width: 27vw;
+                max-height: 80vw;
 
-                .col-md-3{
-                    .contadora{
-                        img{
-                            padding:10px;
-                            margin: 0 auto;
-                            align-self: center;
-                            text-align: center;
-                        }
-                    }
+                .contadora{
+                    padding:10px;
+                    margin: 0 auto;
+                    align-self: center;
+                    text-align: center;
+                    width: 90px;
                 }
 
                 h4{
                     color:$color1;
+                    font-weight: bold;
                 }
 
                 p{
-                    color: #151b25;
+                    color: $color10;
                     font-size: 1rem; 
                     z-index: 998;
                     text-align: center;
+                    padding: 10px;
                 }
-
-                
             }
+
         }
+        
     }
+}
+
+
+
+/* animación*/
+.section__div--contadoras:hover .hoverZoom{
+    filter: blur(4px);
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.section__div--contadoras:hover .hoverZoom:hover{
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow:0 8px 20px 0px $color10;
+    transform: scale(1.2);
+    transition: .8s ease-in-out;
+    
 }

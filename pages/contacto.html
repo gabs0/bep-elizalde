@@ -93,47 +93,53 @@
                 <h1>Contactanos</h1>
             </div>
 
-            <article class="section__div__article">
-                <form class="section__div__formulario" action="#">
-                    <fieldset> 
+            <article class="container-fluid">
+                <form action="#">
+                    <fieldset>
+                        <div class="form-group">
+                            <label for="inputName" class="col-form-label">Nombre completo:</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Escriba su nombre ">
 
-                        <div class="section__div__campo">
-                            <label for="Nombre"> Nombre completo: <br>
-                                <input class="campo" type="text" placeholder="Escriba su nombre "><br>
-                            </label>
                         </div>
 
-                        <div class="section__div__campo">
-                            <label for="Asunto"> Asunto de consulta: <br>
-                                <input class="campo" type="text" placeholder="Escriba el área o asunto"><br>
-                            </label>
+                        <div class="form-group">
+                            <label for="inputAsunto" class="col-form-label">Asunto de consulta:</label>
+                            <input type="text" class="form-control" id="inputAsunto"
+                                placeholder="Escriba el área o asunto">
+
                         </div>
 
-                        <div class="section__div__campo">
-                            <label for="Correo"> Correo electrónico: <br>
-                                <input class="campo" type="email" placeholder="Escriba su correo" name="correo"><br>
-                            </label>
-                        </div>
+                        <div class="form-group">
+                            <label for="inputMail" class="col-form-label">Correo electrónico:</label>
+                            <input type="text" class="form-control" id="inputMail" placeholder="Escriba su correo">
+                            <small id="emailHelp" class="form-text">Esta información es privada y no se
+                                compartirá.</small>
 
-                        <div class="section__div__campo">
-                            <label for="Consulta"> Consulta: <br>
-                                <textarea placeholder="Escriba su consulta"></textarea>
-                            </label>
                         </div>
+    
+                        <!-- agregar textarea -->
                         
-
-                        <div class="section__div__check">
-                            <input type="checkbox" name="acepta" value="1">
-                            Deseo recibir novedades 
+                        <div class="form-group">
+                            <label for="Consulta">Consulta:</label>
+                            <textarea class="form-control" placeholder="Escriba su consulta" rows="3"></textarea>
+                            
                         </div>
+
+                        <!-- checkbox -->
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" value="1" name="aceptar" id="customSwitch1">
+                            <label class="custom-control-label" for="customSwitch1">Deseo recibir novedades </label>
+                        </div>
+
+                        <!-- botones -->
                         
+                        <input class="btn btn-light" type="submit"  value="Enviar">
+                        <input class="btn btn-light" type="reset" value="Borrar todo">
+                        
+                        
+                        <!-- arreglar tamaños -->
+                    </fieldset>
 
-                        <div class="section__div__botones">
-                            <input class="boton boton--blanco" type="submit" value="Enviar">
-                            <input class="boton boton--blanco" type="reset" value="Borrar todo">
-                        </div>
-
-                    </fieldset> 
                 </form>
             </article>
         </section>

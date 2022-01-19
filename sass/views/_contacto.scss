@@ -4,78 +4,72 @@
 
 /*SECCION: Contacto*/
 
-.section__div__article{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin:0 auto;
-
-    .section__div__formulario{
-        flex-basis: 100%;
+.section--contacto{
+    
+    .container-fluid{
         box-sizing: border-box;
-        padding: 5px;
-        width: 80vw;
-        height: fit-content;
-        background-color:$color7;
-        border-radius: 9px;
-        font-family:  $titulos;
-        font-size: 1rem;
-        position: relative;
-        text-align: left;
-        margin:0 auto;
+        z-index: 998;
+        font-size: 0.95rem;
 
         fieldset{
-            border:none;
-            padding: 15px 30px;
+            background-color: $color7;
+            margin:0 auto;
+            padding: 0.9rem;
+            border-radius: 12px;
+            max-width: 950px;
 
-            .section__div__campo{
-                padding: 5px;
-
+            div{
                 label{
-                    width: 75vw;
+                    color:$color1;
                 }
 
-                input, textarea{
-                    border: solid 1px $color3;
-                    font-size: 1rem;
-                    
+                input{
+                    font-size: 0.8rem;
                 }
 
-                .campo, textarea{
-                    width:100%;
-                    background-color: $color9;
+                small{
+                    color:$color2;
+                    padding-left :5px;
                 }
 
-                .campo:focus{
-                    border-color:$color1;
+
+                textarea{
+                    max-height: 120px;
+                    min-height: 80px;
+                    border-radius: 12px;
+                    font-size: 0.8rem;
                 }
 
-        
+                .custom-control-input:checked~.custom-control-label::before {
+                    background-color: $color2;
+                    border-color: $color1;
+                    color: $color8;
+                }
+            }
+            
+            .btn{
+                border-radius: 12px;
+                padding: 0.32rem;
+                margin-top: 1rem;
+                font-size: 0.8rem;
+                font-family: $titulos;
             }
 
-            .section__div__check{
-                padding: 5px;
-                
+            .btn-light{
+                background-color: $color8;
+                border-color: transparent;
+
+                &:hover{
+                    background-color: $color4;
+                    color:$color8;
+                    transition: .3s ease-in-out;
+                }
+
+                &:focus{
+                    background-color: $color1;
+                    color: $color8;
+                }
             }
         }
     }
-}
-
-input{
-    outline: none;
-    border:none;
-    padding: 8px;
-    border-radius: 9px;
-    font-size: 1rem;
-    
-}
-
-textarea{
-    outline: none;
-    border:none;
-    padding: 8px;
-    width: 20vw;
-    border-radius: 9px;
-    font-size: 1rem;
-    
 }
