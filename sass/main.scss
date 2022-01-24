@@ -17,32 +17,54 @@ body{
     text-align: left;
 }
 
+@mixin contenedores--titulo{
+    display: flex;
+    z-index: 998;
+    padding: 5px 5px 10px 35px;
+   
+}
 /*contenedores*/
 /* h1 */
 .section__div__titulo{
-    display: flex;
-    z-index: 998;
+    @include contenedores--titulo();
     width: 40vw;
-    padding: 5px 5px 10px 35px;
     margin-bottom: 30px;
 }
 
 .section__div__titulo--acercaDe{
-    display: flex;
-    z-index: 998;
+    @include contenedores--titulo();
     width: 45vw;
-    padding: 0 5px 10px 35px;
     margin-bottom: 30px;
 }
 
 
+.section__div__titulo--servicios{
+    @include contenedores--titulo();  
+    h1{
+        margin:0 auto;
+        font-size: 1.7rem;
+        z-index: 999;
+    }
+}
+
+
+.section__div__titulo--quienessomos{
+    @include contenedores--titulo();  
+    h1{
+        margin:0 auto;
+        font-size: 1.7rem;
+        z-index: 999;
+        margin-bottom: 35px;
+    }
+}
+
 .section__div__titulo--contacto{
-    display: flex;
-    z-index: 998;
+    @include contenedores--titulo();
     width: 65vw;
     padding: 5px 5px 10px 35px;
-    
 }
+
+
 
 /* h2 */
 .section__div__segundotitulo{
@@ -60,29 +82,14 @@ body{
     padding: 5px 5px 10px 35px;
 }
 
-/* h4 */
-.section__div__equipo h4{
-    z-index: 998;
-    text-align: center;
-    font-size: 1.1rem;
-}
-
 /* p */ 
-.section__div__texto{
+.section__div__texto, .section__div__texto--acercaDe{
     display: flex;
     width: 90vw;
-    height: 20vh;
+    height: 13vh;
     z-index: 998;
-    padding: 0px 5px 50px 35px;
-}
+    padding: 0px 5px 40px 35px;
 
-
-.section__div__texto--acercaDe{
-    display: flex;
-    width: 90vw;
-    height: 20vh;
-    z-index: 998;
-    padding: 0px 5px 50px 35px; 
 }
 
 

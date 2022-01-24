@@ -7,7 +7,7 @@
   .section--servicios .container-fluid .card-deck .card h2 {
     font-size: 1.2rem;
   }
-  .section--servicios .container-fluid .card-deck .card .servicio__imagen {
+  .section--servicios .container-fluid .card-deck .card .servicio__icono {
     width: 80px;
     height: auto;
   }
@@ -34,7 +34,7 @@
   .section--servicios .container-fluid .card-deck .card h2 {
     font-size: 1.1rem;
   }
-  .section--servicios .container-fluid .card-deck .card .servicio__imagen {
+  .section--servicios .container-fluid .card-deck .card .servicio__icono {
     width: 70px;
     height: auto;
   }
@@ -52,7 +52,7 @@
   .section--servicios .container-fluid .card-deck .card h2 {
     font-size: 1rem;
   }
-  .section--servicios .container-fluid .card-deck .card .servicio__imagen {
+  .section--servicios .container-fluid .card-deck .card .servicio__icono {
     width: 60px;
     height: auto;
   }

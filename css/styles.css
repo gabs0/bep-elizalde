@@ -1,12 +1,22 @@
 @charset "UTF-8";
+/*grids*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sintony&display=swap");
+.grid {
+  display: grid;
+  grid-template-areas: "header1" "imgInformacion" "footer1";
+}
 
 /*tipografia*/
 h1, h2, label {
   font-family: "Poppins", sans-serif;
 }
 
-h3, h4, h5, p, input, nav a {
+h3, h4, h5, p, input, nav a, .section__div__botones a {
   font-family: "Sintony", sans-serif;
 }
 
@@ -67,6 +77,26 @@ h1, h2, h3, h4, h5, p, nav a {
 }
 .header .header__nav .header__div__menu .header__nav__submenu .dropdown-item:hover {
   background-color: #686f86;
+}
+
+/*tipografia*/
+h1, h2, label {
+  font-family: "Poppins", sans-serif;
+}
+
+h3, h4, h5, p, input, nav a, .section__div__botones a {
+  font-family: "Sintony", sans-serif;
+}
+
+/*paleta de colores*/
+h1, h2, h3, h4, h5, p, nav a {
+  color: #ffffff;
+}
+
+/*grids*/
+.grid {
+  display: grid;
+  grid-template-areas: "header1" "imgInformacion" "footer1";
 }
 
 /*footer*/
@@ -191,6 +221,26 @@ section, .section--contacto, .section--quienessomos, .section--servicios, .secti
   position: absolute;
 }
 
+/*tipografia*/
+h1, h2, label {
+  font-family: "Poppins", sans-serif;
+}
+
+h3, h4, h5, p, input, nav a, .section__div__botones a {
+  font-family: "Sintony", sans-serif;
+}
+
+/*paleta de colores*/
+h1, h2, h3, h4, h5, p, nav a {
+  color: #ffffff;
+}
+
+/*grids*/
+.grid {
+  display: grid;
+  grid-template-areas: "header1" "imgInformacion" "footer1";
+}
+
 /*SECCION: Contacto*/
 .section--contacto .container-fluid {
   box-sizing: border-box;
@@ -246,6 +296,27 @@ section, .section--contacto, .section--quienessomos, .section--servicios, .secti
   color: #ffffff;
 }
 
+/*SECCION:quienes somos*/
+/*paleta de colores*/
+h1, h2, h3, h4, h5, p, nav a {
+  color: #ffffff;
+}
+
+/*grids*/
+.grid {
+  display: grid;
+  grid-template-areas: "header1" "imgInformacion" "footer1";
+}
+
+/*tipografia*/
+h1, h2, label {
+  font-family: "Poppins", sans-serif;
+}
+
+h3, h4, h5, p, input, nav a, .section__div__botones a {
+  font-family: "Sintony", sans-serif;
+}
+
 .section--quienessomos .container-fluid .section__div__segundotitulo {
   position: relative;
 }
@@ -299,32 +370,155 @@ section, .section--contacto, .section--quienessomos, .section--servicios, .secti
   transition: 0.8s ease-in-out;
 }
 
+/* SECCION: servicios */
+/*tipografia*/
+h1, h2, label {
+  font-family: "Poppins", sans-serif;
+}
 
-.section--servicios .container-fluid .card-deck .card {
+h3, h4, h5, p, input, nav a, .section__div__botones a {
+  font-family: "Sintony", sans-serif;
+}
+
+/*paleta de colores*/
+h1, h2, h3, h4, h5, p, nav a {
+  color: #ffffff;
+}
+
+/*grids*/
+.grid {
+  display: grid;
+  grid-template-areas: "header1" "imgInformacion" "footer1";
+}
+
+.section--servicios {
+  position: relative;
+}
+.section--servicios .section__div--servicios {
+  width: 90%;
+}
+.section--servicios .section__div--servicios .section__carousel {
+  width: 100vw;
+}
+.section--servicios .section__div--servicios .section__carousel__container {
+  position: relative;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__prev {
+  z-index: 998;
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  top: calc(50% + 45px);
+  line-height: 40px;
+  background: none;
+  color: #ffffff;
+  opacity: 0.4;
+  left: 15px;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__prev:hover {
+  opacity: 1;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__next {
+  z-index: 998;
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  top: calc(50% + 45px);
+  line-height: 40px;
+  background: none;
+  color: #ffffff;
+  opacity: 0.4;
+  right: 15px;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__next:hover {
+  opacity: 1;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item {
   background-color: rgba(255, 255, 255, 0.705);
-  max-height: 750px;
   border-radius: 15px;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.section--servicios .container-fluid .card-deck .card h2 {
-  font-size: 1.5rem;
-  color: #0C1726;
-  text-align: center;
-}
-.section--servicios .container-fluid .card-deck .card .servicio__imagen {
+.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__icono {
+  align-self: center;
+  margin-top: 15px;
   width: 90px;
   height: auto;
-  margin: 0 auto;
-  align-self: center;
 }
-.section--servicios .container-fluid .card-deck .card .list-group {
+.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__tipo {
+  color: #0C1726;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__tipo__detalle {
+  list-style: none;
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+}
+.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__tipo__detalle li {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
-.section--servicios .container-fluid .card-deck .card .list-group .list-group-item {
-  background-color: transparent;
+.section--servicios .section__div--servicios .section__carousel .carousel__indicadores .glider-dot {
+  z-index: 998;
+  background-color: #ffffff;
+  opacity: 0.2;
+}
+.section--servicios .section__div--servicios .section__carousel .carousel__indicadores .glider-dot:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 0.5;
+}
+.section--servicios .section__div--servicios .section__carousel .carousel__indicadores .glider-dot.active {
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.glider-slide img {
+  width: 90px;
+  height: auto;
+}
+
+div.glider-track:first-child {
+  margin-left: 30px;
+}
+div.glider-track:last-child {
+  margin-right: 30px;
+}
+
+element.style {
+  width: 90%;
 }
 
 /*botones*/
+/*paleta de colores*/
+h1, h2, h3, h4, h5, p, nav a {
+  color: #ffffff;
+}
+
+/*tipografia*/
+h1, h2, label {
+  font-family: "Poppins", sans-serif;
+}
+
+h3, h4, h5, p, input, nav a, .section__div__botones a {
+  font-family: "Sintony", sans-serif;
+}
 
 .section__div__botones {
   z-index: 998;
@@ -346,6 +540,10 @@ section, .section--contacto, .section--quienessomos, .section--servicios, .secti
 .section__div__botones .boton--blanco:active {
   background-color: #555C73;
 }
+.section__div__botones .boton--link {
+  margin: 0px 5px 10px 35px;
+  font-size: 0.85 rem;
+}
 
 * {
   margin: 0;
@@ -362,22 +560,46 @@ body {
 .section__div__titulo {
   display: flex;
   z-index: 998;
-  width: 40vw;
   padding: 5px 5px 10px 35px;
+  width: 40vw;
   margin-bottom: 30px;
 }
 
 .section__div__titulo--acercaDe {
   display: flex;
   z-index: 998;
+  padding: 5px 5px 10px 35px;
   width: 45vw;
-  padding: 0 5px 10px 35px;
   margin-bottom: 30px;
+}
+
+.section__div__titulo--servicios {
+  display: flex;
+  z-index: 998;
+  padding: 5px 5px 10px 35px;
+}
+.section__div__titulo--servicios h1 {
+  margin: 0 auto;
+  font-size: 1.7rem;
+  z-index: 999;
+}
+
+.section__div__titulo--quienessomos {
+  display: flex;
+  z-index: 998;
+  padding: 5px 5px 10px 35px;
+}
+.section__div__titulo--quienessomos h1 {
+  margin: 0 auto;
+  font-size: 1.7rem;
+  z-index: 999;
+  margin-bottom: 35px;
 }
 
 .section__div__titulo--contacto {
   display: flex;
   z-index: 998;
+  padding: 5px 5px 10px 35px;
   width: 65vw;
   padding: 5px 5px 10px 35px;
 }
@@ -398,28 +620,13 @@ body {
   padding: 5px 5px 10px 35px;
 }
 
-/* h4 */
-.section__div__equipo h4 {
-  z-index: 998;
-  text-align: center;
-  font-size: 1.1rem;
-}
-
 /* p */
-.section__div__texto {
+.section__div__texto, .section__div__texto--acercaDe {
   display: flex;
   width: 90vw;
-  height: 20vh;
+  height: 13vh;
   z-index: 998;
-  padding: 0px 5px 50px 35px;
-}
-
-.section__div__texto--acercaDe {
-  display: flex;
-  width: 90vw;
-  height: 20vh;
-  z-index: 998;
-  padding: 0px 5px 50px 35px;
+  padding: 0px 5px 40px 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */

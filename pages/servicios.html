@@ -3,25 +3,30 @@
 <html lang="es">
 
 <head>
-    <link rel="shortcut icon" href="../logobep.ico">
+    <link rel="shortcut icon" href="../logobep.ico" />
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
 
+    <!-- glider+ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+
     <!-- archivo css -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css" />
     <!-- archivo responsive -->
-    <link rel="stylesheet" href="../css/mediaqueries.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css" />
     <!--iconos font awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Servicios empresariales brindados por BEP">
-    <meta name="keywords" content="EMPRESAS, ASESORAMIENTO,TRIBUTARIO, CONTABLE,LABORAL,SOCIETARIO,PROYECTOS, FINANZA, SERVICIOS">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Servicios empresariales brindados por BEP" />
+    <meta name="keywords"
+        content="EMPRESAS, ASESORAMIENTO,TRIBUTARIO, CONTABLE,LABORAL,SOCIETARIO,PROYECTOS, FINANZA, SERVICIOS" />
     <title>BEP: Servicios</title>
 </head>
 
@@ -29,7 +34,6 @@
     <div class="grid">
         <!-- espacio para el logo y las referncias -->
         <header class="header">
-
             <nav class="header__nav navbar-expand-sm navbar navbar-dark">
                 <a class="navbar-brand" href="../index.html">
                     <img class="header__icono align-top" src="../assets/img/logobep.png" alt="logo BEP" />
@@ -41,15 +45,15 @@
 
                 <!-- nav links -->
                 <div class="collapse navbar-collapse header__div__menu" id="collapsibleNavbar">
-                    <ul class="navbar-nav ml-auto ">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item px-2">
-                            <a class="nav-link " href="../index.html">Inicio</a>
+                            <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item px-2">
                             <a class="nav-link" href="../pages/acercade.html">Acerca de BEP</a>
                         </li>
                         <li class="nav-item dropdown px-2">
-                            <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown"
+                            <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown"
                                 href="../pages/servicios.html">Servicios</a>
                             <ul class="header__nav__submenu dropdown-menu">
                                 <li class="nav-item dropdown-item">
@@ -87,100 +91,149 @@
         <!-- termina el espacio del logo y las referncias -->
 
         <section class="jumbotron section--servicios">
-            <div class="container-fluid">
-                <div class="card-deck">
-                    <!-- Asesoramiento tributario -->
-                    <div class=" card  servicio">
-                        <img class="card-img-top servicio__imagen" src="../assets/img/iconosServicios/tributario.png"
-                            alt="icono asesoramiento tributario">
-                        <h2 class="card-title servicio__tipo">Asesoramiento tributario </h2>
-                        <ul class=" list-group list-group-flush servicio__detalle">
-                            <li class="list-group-item servicio__detalle__item">Asesoramiento integral en materia de tributos nacionales
-                            </li>
-                            <li class="list-group-item servicio__detalle__item"> Planificación tributaria a nivel local</li>
-                            <li class="list-group-item servicio__detalle__item">Asesoramiento de tributación internacional de acuerdo a
-                                los Convenios para evitar la doble imposición firmados por Uruguay </li>
-                            <li class="list-group-item servicio__detalle__item">Preparación y revisión de declaraciones juradas </li>
-                        </ul>
-                    </div>
-
-                    <!-- Asesorameinto contable -->
-                    <div class=" card servicio2 hoverZoom">
-                        <img class="card-img-top servicio__imagen" src="../assets/img/iconosServicios/contabilidad.png"
-                            alt="icono asesoramiento contable">
-                        <h2 class="card-title servicio__tipo">Asesoramiento contable</h2>
-                        <ul class="list-group list-group-flush  servicio__detalle">
-                            <li class="list-group-item servicio__detalle__item">Contabilidad mensual</li>
-                            <li class="list-group-item servicio__detalle__item">Revision limitada de Estados Financieros</li>
-                            <li class="list-group-item servicio__detalle__item">Información de Compilación de Estados Financieros</li>
-                            <li class="list-group-item servicio__detalle__item">Evaluación de control interno</li>
-                            <li class="list-group-item servicio__detalle__item">Análisis de gastos</li>
-                            <li class="list-group-item servicio__detalle__item">Inventarios a medida</li>
-                            <li class="list-group-item servicio__detalle__item">Preparación de Balances para Banco</li>
-                        </ul>
-                    </div>
-
-                    <!-- Asesoramiento laboral -->
-                    <div class=" card servicio3 hoverZoom">
-                        <img class="card-img-top servicio__imagen" src="../assets/img/iconosServicios/laboral.png"
-                            alt="icono asesoramiento laboral">
-                        <h2 class="card-title servicio__tipo">Asesoramiento laboral</h2>
-                        <ul class="list-group list-group-flush  servicio__detalle">
-                            <li class="list-group-item servicio__detalle__item">Liquidación de haberes y confección de recibos al
-                                personal dependiente.</li>
-                            <li class="list-group-item servicio__detalle__item">Intermediación con entidades bancarias para pagos de
-                                sueldo.</li>
-                            <li class="list-group-item servicio__detalle__item">Presentación y mantenimiento de la historial laboral
-                                ante el BPS.</li>
-                            <li class="list-group-item servicio__detalle__item">Gestión, control y pago de facturas ante BPS.</li>
-                            <li class="list-group-item servicio__detalle__item">Inscripción y seguimiento de obras de construcción en
-                                BPS.</li>
-                        </ul>
-                    </div>
-
-                    <!-- Asesoramiento societario -->
-                    <div class=" card servicio4 hoverZoom">
-                        <img class="card-img-top servicio__imagen" src="../assets/img/iconosServicios/societario.png"
-                            alt="icono asesoramiento societario">
-                        <h2 class="card-title servicio__tipo">Asesoramiento societario</h2>
-                        <ul class="list-group list-group-flush  servicio__detalle">
-                            <li class="list-group-item servicio__detalle__item">Asesoramiento sobre la mejor estructura societaria para
-                                sus necesidades.</li>
-                            <li class="list-group-item servicio__detalle__item">Asesoramiento en la compraventa de sociedades.</li>
-                            <li class="list-group-item servicio__detalle__item">Aumento y disminuciones de capital contractual.</li>
-                            <li class="list-group-item servicio__detalle__item">Preparación, registro y transcripción de actas.</li>
-                            <li class="list-group-item servicio__detalle__item">Actualización de información ante los organismos de
-                                contralor.</li>
-                        </ul>
-                    </div>
-
-                    <!-- Asoramiento en proyectos de inversion -->
-                    <div class=" card servicio5 hoverZoom">
-                        <img class="servicio__imagen" src="../assets/img/iconosServicios/inversion.png" alt="icono asesoramiento de proyectos">
-                        <h2 class="card-title servicio__tipo">Asesoramiento  de proyectos</h2>
-                        <ul class="list-group list-group-flush  servicio__detalle">
-                            <li class="list-group-item servicio__detalle__item">Asesoramiento en el diseño de la mejor estrategia para presentar un proyecto de inversión que maximice los beneficios fiscales para la empresa.</li>
-                            <li class="list-group-item servicio__detalle__item">Preparación de toda la documentación a presentar ante los organismos correspondientes.</li>
-                            <li class="list-group-item servicio__detalle__item">Confección y presentación de los controles de seguimiento exigidos por la normativa para el mantenimiento del beneficio del proyecto de inversión.</li>
-                        </ul>
-                    </div>
+            <div class="section__div--servicios">
+                <div class="section__div__titulo--servicios">
+                    <h1>Servicios</h1>
                 </div>
+                <div class="section__carousel">
+                    <div class="section__carousel__container">
+                        <button aria-label="Previous" class="carousel__prev">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
 
+                        <div class="carousel__servicios">
+                            <!-- Asesoramiento tributario -->
+                            <div class="carousel__servicios__item glider-slide">
+                                <img class="servicio__icono" src="../assets/img/iconosServicios/tributario.png"
+                                    alt="icono asesoramiento tributario" />
+                                <h2 class="servicio__tipo">Asesoramiento tributario</h2>
+                                <ul class="servicio__tipo__detalle">
+                                    <li class="servicio__tipo__item">
+                                        Asesoramiento integral en materia de tributos nacionales
+                                    </li>
+                                    <li class="servicio__tipo__item">
+                                        Planificación tributaria a nivel local
+                                    </li>
+                                    <li class="servicio__tipo__item">
+                                        Asesoramiento de tributación internacional de acuerdo a los
+                                        Convenios para evitar la doble imposición firmados por
+                                        Uruguay
+                                    </li>
+                                    <li class="servicio__tipo__item">
+                                        Preparación y revisión de declaraciones juradas
+                                    </li>
 
+                                    <li class="servicio__tipo__item">
+                                        Asesoramiento en materia de beneficios tributarios para la promoción de
+                                        inversiones
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <!-- Asesorameinto contable -->
+                            <div class="carousel__servicios__item ">
+                                <img class="servicio__icono" src="../assets/img/iconosServicios/contabilidad.png"
+                                    alt="icono asesoramiento contable" />
+                                <h2 class="servicio__tipo">Asesoramiento contable</h2>
+                                <ul class="servicio__tipo__detalle">
+                                    <li class="servicio__tipo__item">Contabilidad mensual</li>
+                                    <li class="servicio__tipo__item">
+                                        Revision limitada de Estados Financieros
+                                    </li>
+                                    <li class="servicio__tipo__item">
+                                        Información de Compilación de Estados Financieros
+                                    </li>
+                                    <li class="servicio__tipo__item">
+                                        Evaluación de control interno
+                                    </li>
+                                    <li class="servicio__tipo__item">Análisis de gastos</li>
+                                    <li class="servicio__tipo__item">Inventarios a medida</li>
+                                    <li class="servicio__tipo__item">
+                                        Preparación de Balances para Banco
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Asesoramiento laboral -->
+                            <div class="carousel__servicios__item ">
+                                <img class="servicio__icono" src="../assets/img/iconosServicios/laboral.png"
+                                    alt="icono asesoramiento laboral">
+                                <h2 class="servicio__tipo">Asesoramiento laboral</h2>
+                                <ul class="servicio__tipo__detalle">
+                                    <li class="servicio__tipo__item">Liquidación de haberes y confección de recibos al
+                                        personal dependiente.</li>
+                                    <li class="servicio__tipo__item">Intermediación con entidades bancarias para pagos
+                                        de
+                                        sueldo.</li>
+                                    <li class="servicio__tipo__item">Presentación y mantenimiento de la historial
+                                        laboral
+                                        ante el BPS.</li>
+                                    <li class="servicio__tipo__item">Gestión, control y pago de facturas ante BPS.</li>
+                                    <li class="servicio__tipo__item">Inscripción y seguimiento de obras de construcción
+                                        en BPS.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Asesoramiento societario -->
+                            <div class="carousel__servicios__item">
+                                <img class="servicio__icono" src="../assets/img/iconosServicios/societario.png"
+                                    alt="icono asesoramiento societario">
+                                <h2 class="servicio__tipo">Asesoramiento societario</h2>
+                                <ul class="servicio__tipo__detalle">
+                                    <li class="servicio__tipo__item">Asesoramiento sobre la mejor estructura societaria
+                                        para sus necesidades.</li>
+                                    <li class="servicio__tipo__item">Asesoramiento en la compraventa de sociedades.</li>
+                                    <li class="servicio__tipo__item">Aumento y disminuciones de capital contractual.
+                                    </li>
+                                    <li class="servicio__tipo__item">Preparación, registro y transcripción de actas.
+                                    </li>
+                                    <li class="servicio__tipo__item">Actualización de información ante los organismos de
+                                        contralor.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Asoramiento en proyectos de inversion -->
+                            <div class="carousel__servicios__item ">
+                                <img class="servicio__icono" src="../assets/img/iconosServicios/inversion.png"
+                                    alt="icono asesoramiento de proyectos">
+                                <h2 class="servicio__tipo">Asesoramiento de proyectos</h2>
+                                <ul class="servicio__tipo__detalle">
+                                    <li class="servicio__tipo__item">Asesoramiento en el diseño de la mejor estrategia
+                                        para presentar un proyecto de inversión que maximice los beneficios fiscales
+                                        para la
+                                        empresa.</li>
+                                    <li class="servicio__tipo__item">Preparación de toda la documentación a presentar
+                                        ante los organismos correspondientes.</li>
+                                    <li class="servicio__tipo__item">Confección y presentación de los controles de
+                                        seguimiento exigidos por la normativa para el mantenimiento del beneficio del
+                                        proyecto de inversión.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <button aria-label="Next" class="carousel__next">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+
+                    <div role="tablist" class="carousel__indicadores"></div>
+                </div>
             </div>
+
         </section>
 
         <footer class="footer">
             <div class="container-fluid">
-                <div class="row ">
-                    <div class="footer__div col-lg-4 col-md-12  mt-4 mb-4  text-md-center text-s-center text-xs-center">
+                <div class="row">
+                    <div class="footer__div col-lg-4 col-md-12 mt-4 mb-4 text-md-center text-s-center text-xs-center">
                         <a class="navbar-brand" href="../index.html">
                             <img class="footer__icono" src="../assets/img/logobep.png" alt="logo BEP" />
                         </a>
                     </div>
 
                     <!-- nav de contacto -->
-                    <div class="col-lg-4 col-md-6 mt-4  ml-auto">
+                    <div class="col-lg-4 col-md-6 mt-4 ml-auto">
                         <nav class="footer__div__nav">
                             <ul class="footer__div__nav--contacto">
                                 <li class="nav-item">
@@ -199,27 +252,22 @@
                         </nav>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 mt-4  ml-auto">
+                    <div class="col-lg-4 col-md-6 mt-4 ml-auto">
                         <nav class="footer__div__nav">
                             <ul class="footer__div__nav--referencias">
-                                <li class="nav-item"><a class="nav-link" href="../pages/quienessomos.html">Nuestro
-                                        equipo</a></li>
-                                <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contactanos</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/quienessomos.html">Nuestro equipo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contacto.html">Contactanos</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-
                 </div>
             </div>
-
         </footer>
     </div>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -231,8 +279,9 @@
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
     </script>
 
-
-
+    <!-- glider -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="../glider/app.js"></script>
 </body>
 
 </html>
