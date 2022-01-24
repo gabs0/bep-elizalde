@@ -1,7 +1,7 @@
 .glider,
 .glider-contain {
     margin: 0 auto;
-    position: relative
+    position: relative;
 }
 
 .glider,
@@ -19,7 +19,7 @@
 }
 
 .glider-contain {
-    width: 100%
+    width: 90%
 }
 
 .glider {
@@ -29,7 +29,7 @@
 }
 
 .glider-track {
-    /* width: 100%; */
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -125,7 +125,8 @@
     background: #ccc;
     width: 12px;
     height: 12px;
-    margin: 7px
+    margin-top: 25px;
+    margin-left: 7px;
 }
 
 .glider-dot:focus,

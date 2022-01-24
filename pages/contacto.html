@@ -96,24 +96,24 @@
             </div>
 
             <article class="container-fluid">
-                <form action="#">
+                <form action="../enviar.php">
                     <fieldset>
                         <div class="form-group">
                             <label for="inputName" class="col-form-label">Nombre completo:</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Escriba su nombre ">
+                            <input type="text" class="form-control" id="inputName" name="nombre" placeholder="Escriba su nombre ">
 
                         </div>
 
                         <div class="form-group">
                             <label for="inputAsunto" class="col-form-label">Asunto de consulta:</label>
-                            <input type="text" class="form-control" id="inputAsunto"
+                            <input type="text" class="form-control" id="inputAsunto" name="asunto"
                                 placeholder="Escriba el área o asunto">
 
                         </div>
 
                         <div class="form-group">
                             <label for="inputMail" class="col-form-label">Correo electrónico:</label>
-                            <input type="text" class="form-control" id="inputMail" placeholder="Escriba su correo">
+                            <input type="text" class="form-control" id="inputMail" name="correo" placeholder="Escriba su correo" >
                             <small id="emailHelp" class="form-text">Esta información es privada y no se
                                 compartirá.</small>
 
@@ -123,7 +123,7 @@
                         
                         <div class="form-group">
                             <label for="Consulta">Consulta:</label>
-                            <textarea class="form-control" placeholder="Escriba su consulta" rows="3"></textarea>
+                            <textarea class="form-control" name="consulta" placeholder="Escriba su consulta" rows="3"></textarea>
                             
                         </div>
 

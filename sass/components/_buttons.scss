@@ -6,16 +6,17 @@ $shadow-button:0 0 40px -10px #000;
 
 .section__div__botones{
     z-index: 998;
-    
+    margin-top: 15px;
     .boton{
         border-radius: 10px;
         display: inline-block;
         padding: 5px 20px;
         box-shadow:$shadow-button;
+        
 
         &--blanco{
             color: map-get($colors, "color1");
-        background-color: map-get($colors, "color8");
+            background-color: map-get($colors, "color8");
         }
 
         &--blanco:hover{
@@ -29,12 +30,9 @@ $shadow-button:0 0 40px -10px #000;
 
         &--link{
             margin: 0px 5px 10px 35px;
-            font-size: 0.85  rem;
+            
         }
     }
-
-    
-
 
 
 }

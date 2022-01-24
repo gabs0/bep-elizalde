@@ -87,6 +87,10 @@
   .section__div__titulo--contacto h1 {
     font-size: 2.2rem;
   }
+
+  .section__div__botones {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 860px) {
   /* header */
@@ -94,7 +98,7 @@
     font-size: 0.95rem;
   }
 
-  .section--quienessomos div h2 {
+  .section--quienessomos div h1 {
     font-size: 1.5rem;
   }
   .section--quienessomos .container-fluid {
@@ -111,6 +115,10 @@
   .section--quienessomos .container-fluid .section__div--contadoras .card p {
     font-size: 0.9rem;
   }
+
+  .section__div__botones {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 815px) {
   /* header */
@@ -121,6 +129,11 @@
   /* títulos */
   .display-1 {
     font-size: 4rem;
+  }
+
+  /*botones*/
+  .section__div__botones a {
+    font-size: 0.9rem;
   }
 
   /* titulo h3 */
@@ -143,6 +156,10 @@
   .section--quienessomos {
     justify-content: space-between;
   }
+
+  .section__div__botones {
+    margin-top: 40px;
+  }
 }
 @media (max-width: 760px) {
   /* footer */
@@ -159,6 +176,10 @@
   .section--quienessomos .container-fluid .row .card p {
     font-size: 0.9rem;
   }
+
+  .section__div__botones {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 710px) {
   .section--quienessomos .container-fluid .row .card {
@@ -168,6 +189,14 @@
     font-size: 1.1rem;
   }
   .section--quienessomos .container-fluid .row .card p {
+    font-size: 0.85rem;
+  }
+
+  /*botones*/
+  .section__div__botones {
+    margin-top: 55px;
+  }
+  .section__div__botones a {
     font-size: 0.85rem;
   }
 }
@@ -203,6 +232,14 @@
   .section--quienessomos .container-fluid .row .card p {
     visibility: hidden;
   }
+
+  /*botones*/
+  .section__div__botones {
+    margin-top: 60px;
+  }
+  .section__div__botones a {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 592px) {
   /* header */
@@ -224,6 +261,10 @@
   p {
     font-size: 0.95rem;
   }
+
+  .section__div__botones {
+    margin-top: 65px;
+  }
 }
 @media (max-width: 576.5px) {
   /* header icono */
@@ -236,6 +277,13 @@
   .footer .row .footer__div .footer__icono {
     width: 80px;
     height: auto;
+  }
+
+  .section__div__botones {
+    margin-top: 70px;
+  }
+  .section__div__botones a {
+    font-size: 0.75rem;
   }
 }
 @media (max-width: 505px) {
@@ -260,6 +308,13 @@
 
   .section--contacto .container-fluid {
     font-size: 0.85rem;
+  }
+
+  .section__div__botones {
+    margin-top: 75px;
+  }
+  .section__div__botones a {
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 470px) {

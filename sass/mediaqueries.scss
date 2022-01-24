@@ -132,7 +132,10 @@
         }
     }
 
-    
+    // botmes
+    .section__div__botones{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width:860px){ 
@@ -152,7 +155,7 @@
     // seccion quienes somos
     .section--quienessomos{
         div{
-            h2{
+            h1{
                 font-size: 1.5rem;
             }
         }
@@ -176,6 +179,11 @@
         
     }  
 
+    // botmes
+    .section__div__botones{
+        margin-top: 30px;
+    }
+
     
     
 }
@@ -197,6 +205,13 @@
         font-size: 4rem;
     }
 
+    /*botones*/
+    .section__div__botones{
+        a{
+            font-size: 0.9rem;
+        }
+    }
+
     /* titulo h3 */
     .section__div__tercertitulo{
         h3{
@@ -215,9 +230,15 @@
         margin-bottom: 20px;
     }
 
+
     /* quienes somos seccion */
     .section--quienessomos{
         justify-content: space-between;
+    }
+
+    // botmes
+    .section__div__botones{
+        margin-top: 40px;
     }
 }
 
@@ -244,6 +265,11 @@
         }
     }
 
+    // botmes
+    .section__div__botones{
+        margin-top: 50px;
+    }
+
 }
 
 @media (max-width:710px){
@@ -261,6 +287,14 @@
                     }
                 }
             }
+        }
+    }
+
+    /*botones*/
+    .section__div__botones{
+        margin-top: 55px;
+        a{
+            font-size: 0.85rem;
         }
     }
 }
@@ -316,6 +350,14 @@
             }
         }
     }
+
+    /*botones*/
+    .section__div__botones{
+        margin-top: 60px;
+        a{
+            font-size: 0.8rem;
+        }
+    }
 }
 
 @media (max-width:592px){
@@ -346,6 +388,11 @@
     p{
         font-size: 0.95rem;
     }
+
+    // botmes
+    .section__div__botones{
+        margin-top: 65px;
+    }
 }
 
 @media (max-width:576.5px){
@@ -368,6 +415,14 @@
                     height: auto;
                 }
             }
+        }
+    }
+
+    // botmes
+    .section__div__botones{
+        margin-top: 70px;
+        a{
+            font-size: 0.75rem;
         }
     }
 }
@@ -401,6 +456,14 @@
     .section--contacto{
         .container-fluid{
             font-size:0.85rem ;
+        }
+    }
+
+    // botmes
+    .section__div__botones{
+        margin-top: 75px;
+        a{
+            font-size: 0.7rem;
         }
     }
 }
