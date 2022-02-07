@@ -8,9 +8,7 @@ $border-card:1px solid #686f86;
 .section--quienessomos{
 
     .container-fluid{
-        .section__div__segundotitulo{
-            position: relative;
-        }
+        
         .row{
             align-items: center;
             justify-content: space-evenly;
@@ -24,7 +22,8 @@ $border-card:1px solid #686f86;
                 border-radius: 15px;
                 box-sizing: border-box;
                 width: 27vw;
-                max-height: 80vw;
+                max-height: 80vh;
+                height: 300px;
 
                 .contadora{
                     padding:10px;
@@ -37,6 +36,7 @@ $border-card:1px solid #686f86;
                 h4{
                     color:$color1;
                     font-weight: bold;
+                    font-size: 1.3rem;
                 }
 
                 p{
@@ -46,10 +46,23 @@ $border-card:1px solid #686f86;
                     text-align: center;
                     padding: 10px;
                 }
+                
+                div{
+                    .icon{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        a{
+                            color: $color10;
+                            position:absolute;
+                            bottom: 1em;
+                        }
+                        
+                        
+                    }
+                }
             }
-
         }
-        
     }
 }
 

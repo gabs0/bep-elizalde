@@ -242,6 +242,9 @@ h1, h2, h3, h4, h5, p, nav a {
 }
 
 /*SECCION: Contacto*/
+.section--contacto .section__div__titulo--contacto {
+  justify-content: center;
+}
 .section--contacto .container-fluid {
   box-sizing: border-box;
   z-index: 998;
@@ -317,9 +320,6 @@ h3, h4, h5, p, input, nav a, .section__div__botones a {
   font-family: "Sintony", sans-serif;
 }
 
-.section--quienessomos .container-fluid .section__div__segundotitulo {
-  position: relative;
-}
 .section--quienessomos .container-fluid .row {
   align-items: center;
   justify-content: space-evenly;
@@ -334,7 +334,8 @@ h3, h4, h5, p, input, nav a, .section__div__botones a {
   border-radius: 15px;
   box-sizing: border-box;
   width: 27vw;
-  max-height: 80vw;
+  max-height: 80vh;
+  height: 300px;
 }
 .section--quienessomos .container-fluid .row .card .contadora {
   padding: 10px;
@@ -346,6 +347,7 @@ h3, h4, h5, p, input, nav a, .section__div__botones a {
 .section--quienessomos .container-fluid .row .card h4 {
   color: #0C1726;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 .section--quienessomos .container-fluid .row .card p {
   color: #151b25;
@@ -353,6 +355,16 @@ h3, h4, h5, p, input, nav a, .section__div__botones a {
   z-index: 998;
   text-align: center;
   padding: 10px;
+}
+.section--quienessomos .container-fluid .row .card div .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section--quienessomos .container-fluid .row .card div .icon a {
+  color: #151b25;
+  position: absolute;
+  bottom: 1em;
 }
 
 /* animación*/
@@ -600,8 +612,7 @@ body {
   display: flex;
   z-index: 998;
   padding: 5px 5px 10px 35px;
-  width: 65vw;
-  padding: 5px 5px 10px 35px;
+  padding: 5px 5px 10px 10px;
 }
 
 /* h2 */

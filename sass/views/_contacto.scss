@@ -5,6 +5,9 @@
 /*SECCION: Contacto*/
 
 .section--contacto{
+    .section__div__titulo--contacto{
+        justify-content: center; 
+    }
     
     .container-fluid{
         box-sizing: border-box;
