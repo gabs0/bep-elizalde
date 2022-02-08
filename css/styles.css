@@ -253,9 +253,9 @@ h1, h2, h3, h4, h5, p, nav a {
 .section--contacto .container-fluid fieldset {
   background-color: #c5ced98a;
   margin: 0 auto;
-  padding: 0.9rem;
+  padding: 2rem;
   border-radius: 12px;
-  max-width: 950px;
+  max-width: 750px;
 }
 .section--contacto .container-fluid fieldset div label {
   color: #0C1726;
@@ -403,118 +403,46 @@ h1, h2, h3, h4, h5, p, nav a {
   grid-template-areas: "header1" "imgInformacion" "footer1";
 }
 
-.section--servicios {
-  position: relative;
-}
 .section--servicios .section__div--servicios {
-  width: 90%;
+  width: 95vw;
 }
-.section--servicios .section__div--servicios .section__carousel {
-  width: 100vw;
+.section--servicios .section__div--servicios .section__div__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
 }
-.section--servicios .section__div--servicios .section__carousel__container {
-  position: relative;
-}
-.section--servicios .section__div--servicios .section__carousel__container .carousel__prev {
-  z-index: 998;
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 40px;
-  border: none;
-  cursor: pointer;
-  top: calc(50% + 45px);
-  line-height: 40px;
-  background: none;
-  color: #ffffff;
-  opacity: 0.4;
-  left: 15px;
-}
-.section--servicios .section__div--servicios .section__carousel__container .carousel__prev:hover {
-  opacity: 1;
-}
-.section--servicios .section__div--servicios .section__carousel__container .carousel__next {
-  z-index: 998;
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 40px;
-  border: none;
-  cursor: pointer;
-  top: calc(50% + 45px);
-  line-height: 40px;
-  background: none;
-  color: #ffffff;
-  opacity: 0.4;
-  right: 15px;
-}
-.section--servicios .section__div--servicios .section__carousel__container .carousel__next:hover {
-  opacity: 1;
-}
-.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios {
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item {
+.section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item {
   background-color: rgba(255, 255, 255, 0.705);
   border-radius: 15px;
-  margin-left: 1.2rem;
-  margin-right: 1.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 300px;
 }
-.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__icono {
+.section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__icono {
   align-self: center;
   margin-top: 15px;
   width: 90px;
   height: auto;
 }
-.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__tipo {
+.section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__tipo {
   color: #0C1726;
   font-size: 1.5rem;
   text-align: center;
 }
-.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__tipo__detalle {
+.section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__tipo__detalle {
   list-style: none;
   margin: 5px;
   padding: 15px;
   text-align: center;
 }
-.section--servicios .section__div--servicios .section__carousel__container .carousel__servicios__item .servicio__tipo__detalle li {
+.section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__tipo__detalle li {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-.section--servicios .section__div--servicios .section__carousel .carousel__indicadores .glider-dot {
-  z-index: 998;
-  background-color: #ffffff;
-  opacity: 0.2;
-}
-.section--servicios .section__div--servicios .section__carousel .carousel__indicadores .glider-dot:hover {
-  transition: 0.5s ease-in-out;
-  opacity: 0.5;
-}
-.section--servicios .section__div--servicios .section__carousel .carousel__indicadores .glider-dot.active {
-  transition: 0.5s ease-in-out;
-  opacity: 1;
-}
-
-.glider-slide img {
-  width: 90px;
-  height: auto;
-}
-
-div.glider-track:first-child {
-  margin-left: 30px;
-}
-div.glider-track:last-child {
-  margin-right: 30px;
-}
-
-element.style {
-  width: 90%;
 }
 
 /*botones*/

@@ -63,6 +63,23 @@
         }
     }
 
+    //quienes somos
+    .section--quienessomos{
+        .container-fluid{
+            .row{
+                .card{
+                    div{
+                        .icon{
+                            a{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media (max-width:1000px){
@@ -126,9 +143,18 @@
         
     } 
     
-    .section__div__titulo--contacto {
-        h1{
-            font-size: 2.2rem;
+    //seccion contacto
+    .section--contacto{
+        .section__div__titulo--contacto {
+            h1{
+                font-size: 2.2rem;
+            }
+        }
+        .container-fluid{
+            fieldset{
+                padding: 1.9rem;
+                width: 700px;
+            }
         }
     }
 
@@ -160,7 +186,6 @@
             }
         }
         .container-fluid{
-
             margin-top: 150px;
             /* card */
             .section__div--contadoras{
@@ -177,7 +202,17 @@
             }
         }
         
-    }  
+    } 
+
+    //seccion contacto
+    .section--contacto{
+        .container-fluid{
+            fieldset{
+                padding: 1.85rem;
+                width: 650px;
+            }
+        }
+    } 
 
     // botmes
     .section__div__botones{
@@ -240,6 +275,16 @@
     .section__div__botones{
         margin-top: 40px;
     }
+
+    //seccion contacto
+    .section--contacto{
+        .container-fluid{
+            fieldset{
+                padding: 1.80rem;
+                width: 600px;
+            }
+        }
+    } 
 }
 
 @media (max-width:760px){
@@ -278,7 +323,7 @@
         .container-fluid{
             .row{
                 .card{
-                    max-width: 350px;
+                    
                     h4{
                         font-size: 1.1rem;
                     }
@@ -289,6 +334,16 @@
             }
         }
     }
+
+    //seccion contacto
+    .section--contacto{
+        .container-fluid{
+            fieldset{
+                padding: 1.75rem;
+                width: 530px;
+            }
+        }
+    } 
 
     /*botones*/
     .section__div__botones{
@@ -312,17 +367,20 @@
     }
 
     //seccion contacto
-    .section__div__titulo--contacto {
-        h1{
-            font-size: 2rem;
-        }
-    }
-
     .section--contacto{
+        .section__div__titulo--contacto {
+            h1{
+                font-size: 2rem;
+            }
+        }
         .container-fluid{
             font-size:0.9rem ;
+            fieldset{
+                padding: 1.65rem;
+                width: 500px;
+            }
         }
-    }
+    } 
 
     // seccion quienes somos
     .section--quienessomos{
@@ -332,19 +390,27 @@
                 
                 .card{
                     margin: 0 auto;
-                    width: 270px;
-                    max-height: 120px;
+                    width: 250px;
+                    height: 140px;
                     margin-bottom: 15px;
 
                     .contadora{
-                        width: 80px;
+                        width: 70px;
                     }
                     
                     h4{
-                        font-size: 1rem;
+                        font-size: 0.95rem;
                     }
                     p{
                         visibility: hidden;
+                    }
+
+                    div{
+                        .icon{
+                            a{
+                                font-size: 0.85rem;
+                            }
+                        }
                     }
                 }
             }
@@ -393,6 +459,16 @@
     .section__div__botones{
         margin-top: 65px;
     }
+
+    //seccion contacto
+    .section--contacto{
+        .container-fluid{
+            fieldset{
+                padding: 1.55rem;
+                width: 450px;
+            }
+        }
+    } 
 }
 
 @media (max-width:576.5px){
@@ -425,6 +501,16 @@
             font-size: 0.75rem;
         }
     }
+
+     //seccion contacto
+    .section--contacto{
+        .container-fluid{
+            fieldset{
+                padding: 1.50rem;
+                width: 400px;
+            }
+        }
+    }
 }
 
 @media (max-width:505px){
@@ -447,15 +533,18 @@
     }
 
     //seccion contacto
-    .section__div__titulo--contacto {
-        h1{
-            font-size: 1.9rem;
-        }
-    }
-
     .section--contacto{
+        .section__div__titulo--contacto {
+            h1{
+                font-size: 1.9rem;
+            }
+        }
         .container-fluid{
             font-size:0.85rem ;
+            fieldset{
+                padding: 1.50rem;
+                width: 400px;
+            }
         }
     }
 
@@ -515,6 +604,15 @@
         font-size: 0.86rem;
     }
     
+    //seccion contacto
+    .section--contacto{
+        .container-fluid{
+            fieldset{
+                padding: 1.45rem;
+                width: 350px;
+            }
+        }
+    }
 
 }
 

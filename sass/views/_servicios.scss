@@ -5,129 +5,63 @@
 
 $card-bg--color:rgba(255, 255, 255, 0.705);
 
-@mixin arrows {
-    z-index: 998;
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    top: calc(50% + 45px);
-    line-height: 40px;
-    background: none;
-    color: $color8;
-    opacity: 0.4;
-}
 
 .section--servicios {
-    position: relative;
-    .section__div--servicios{
-        width: 90%;
-        .section__carousel {
-            width: 100vw;
-            &__container {
-                position: relative;
     
-                .carousel__prev {
-                    @include arrows();
-                    left: 15px;
-    
-                    &:hover {
-                        opacity: 1;
-                    }
-                }
-    
-                .carousel__next {
-                    @include arrows();
-                    right: 15px;
-    
-                    &:hover {
-                        opacity: 1;
-                    }
-                }
-    
-                .carousel__servicios {
-                    
-                    overflow: hidden;
-                    box-sizing: border-box;
-                    &__item {
-                        background-color: $card-bg--color;
-                        border-radius: 15px; 
-                        margin-left: 1.2rem;
-                        margin-right: 1.2rem;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-    
-                        .servicio__icono {
-                            align-self: center;
-                            margin-top: 15px;
-                            width: 90px;
-                            height: auto;
-                        }
-    
-    
-                        .servicio__tipo {
-                                color: map-get($colors, "color1");
-                                font-size: 1.5rem;
-                                text-align: center;
-                        }
-    
-                        .servicio__tipo__detalle{
-                            list-style: none;
-                            margin: 5px;
-                            padding:15px;
-                            text-align: center;
-    
-                            li{
-                                font-family: $titulos;
-                                font-size: 0.8rem;
-                                padding-top: 0.5rem;
-                                padding-bottom: 0.5rem;
+    .section__div--servicios {
+        width: 95vw;
+
+        .section__div__container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:1.2rem;
+
+            .glide {
+                .glide__track {
+                    .glide__slides {
+                        .glide__slide {
+                            .servicios__item {
+                                background-color: $card-bg--color;
+                                border-radius: 15px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                width: 300px;
+
+                                .servicio__icono {
+                                    align-self: center;
+                                    margin-top: 15px;
+                                    width: 90px;
+                                    height: auto;
+                                }
+
+                                .servicio__tipo {
+                                    color: map-get($colors, "color1");
+                                    font-size: 1.5rem;
+                                    text-align: center;
+                                }
+
+                                .servicio__tipo__detalle {
+                                    list-style: none;
+                                    margin: 5px;
+                                    padding: 15px;
+                                    text-align: center;
+
+                                    li {
+                                        font-family: $titulos;
+                                        font-size: 0.8rem;
+                                        padding-top: 0.5rem;
+                                        padding-bottom: 0.5rem;
+                                    }
+                                }
+
                             }
                         }
                     }
                 }
             }
-            .carousel__indicadores .glider-dot{
-                z-index: 998;
-                background-color: $color8;
-                opacity: 0.2;
-    
-                &:hover{
-                    transition: .5s ease-in-out;
-                    opacity: 0.5;
-                }
-                
-                &.active{
-                    transition: .5s ease-in-out;
-                    opacity: 1;
-                }
-            }
-    
         }
-        
     }
-    
-}
-
-.glider-slide {
-    img {
-        width: 90px;
-        height: auto;
-    }
-}
-
-div.glider-track{
-    &:first-child{
-        margin-left: 30px;
-    }
-    &:last-child{
-        margin-right: 30px;
-    }
-}
-
-element.style{
-    width: 90%;
 }
