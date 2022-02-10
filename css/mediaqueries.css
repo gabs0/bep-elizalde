@@ -1,27 +1,21 @@
 @charset "UTF-8";
-
 /* media queries */
 @media (max-width: 1400px) {
   .section--servicios .container-fluid .card-deck .card {
     max-height: 750px;
   }
-
   .section--servicios .container-fluid .card-deck .card h2 {
     font-size: 1.2rem;
   }
-
   .section--servicios .container-fluid .card-deck .card .servicio__icono {
     width: 80px;
     height: auto;
   }
-
   .section--servicios .container-fluid .card-deck .card .list-group {
     font-size: 0.7rem;
   }
 }
-
 @media (max-width: 1200px) {
-
   /* títulos */
   .display-1 {
     font-size: 5rem;
@@ -37,70 +31,62 @@
     align-items: center;
     margin: 15px;
   }
-
   .section--servicios .container-fluid .card-deck .card h2 {
     font-size: 1.1rem;
   }
-
   .section--servicios .container-fluid .card-deck .card .servicio__icono {
     width: 70px;
     height: auto;
   }
-
   .section--servicios .container-fluid .card-deck .card .list-group {
     font-size: 0.65rem;
   }
 
+  .section--quienessomos .container-fluid .row .card {
+    height: 350px;
+  }
   .section--quienessomos .container-fluid .row .card div .icon a {
     font-size: 0.9rem;
   }
 }
-
 @media (max-width: 1000px) {
   .section--servicios .container-fluid {
     box-sizing: border-box;
   }
-
   .section--servicios .container-fluid .card-deck .card {
     max-width: 100px;
   }
-
   .section--servicios .container-fluid .card-deck .card h2 {
     font-size: 1rem;
   }
-
   .section--servicios .container-fluid .card-deck .card .servicio__icono {
     width: 60px;
     height: auto;
   }
-
   .section--servicios .container-fluid .card-deck .card .list-group {
     font-size: 0.6rem;
   }
 }
-
 @media (max-width: 992px) {
-
   /* footer */
   .footer .footer__div {
     justify-content: center;
   }
-
   .footer .footer__div__nav {
     display: flex;
     justify-content: space-evenly;
   }
 
-
+  .section--quienessomos .container-fluid {
+    /* card */
+  }
   .section--quienessomos .container-fluid .section__div--contadoras {
     box-sizing: border-box;
     display: flex;
   }
-
   .section--quienessomos .container-fluid .section__div--contadoras .card h4 {
     font-size: 1.1rem;
   }
-
   .section--quienessomos .container-fluid .section__div--contadoras .card p {
     font-size: 0.9rem;
   }
@@ -108,7 +94,6 @@
   .section--contacto .section__div__titulo--contacto h1 {
     font-size: 2.2rem;
   }
-
   .section--contacto .container-fluid fieldset {
     padding: 1.9rem;
     width: 700px;
@@ -118,9 +103,7 @@
     margin-top: 20px;
   }
 }
-
 @media (max-width: 860px) {
-
   /* header */
   .header .header__nav .header__div__menu a {
     font-size: 0.95rem;
@@ -129,21 +112,17 @@
   .section--quienessomos div h1 {
     font-size: 1.5rem;
   }
-
   .section--quienessomos .container-fluid {
     margin-top: 150px;
     /* card */
   }
-
   .section--quienessomos .container-fluid .section__div--contadoras {
     box-sizing: border-box;
     display: flex;
   }
-
   .section--quienessomos .container-fluid .section__div--contadoras .card h4 {
     font-size: 1.1rem;
   }
-
   .section--quienessomos .container-fluid .section__div--contadoras .card p {
     font-size: 0.9rem;
   }
@@ -157,9 +136,7 @@
     margin-top: 30px;
   }
 }
-
 @media (max-width: 815px) {
-
   /* header */
   .header .header__nav .header__div__menu a {
     font-size: 0.9rem;
@@ -187,7 +164,7 @@
 
   /* contenedor titulos */
   .section__div__titulo,
-  .section__div__titulo--acercaDe {
+.section__div__titulo--acercaDe {
     margin-bottom: 20px;
   }
 
@@ -205,22 +182,15 @@
     width: 600px;
   }
 }
-
 @media (max-width: 760px) {
-
   /* footer */
   .footer__div__nav {
     text-align: center;
   }
 
-  .section--quienessomos .container-fluid .row .card {
-    max-width: 350px;
-  }
-
   .section--quienessomos .container-fluid .row .card h4 {
     font-size: 1.2rem;
   }
-
   .section--quienessomos .container-fluid .row .card p {
     font-size: 0.9rem;
   }
@@ -229,12 +199,10 @@
     margin-top: 50px;
   }
 }
-
 @media (max-width: 710px) {
   .section--quienessomos .container-fluid .row .card h4 {
     font-size: 1.1rem;
   }
-
   .section--quienessomos .container-fluid .row .card p {
     font-size: 0.85rem;
   }
@@ -248,14 +216,11 @@
   .section__div__botones {
     margin-top: 55px;
   }
-
   .section__div__botones a {
     font-size: 0.85rem;
   }
 }
-
 @media (max-width: 620px) {
-
   /* header */
   .header .header__nav .header__div__menu a {
     font-size: 0.8rem;
@@ -264,11 +229,9 @@
   .section--contacto .section__div__titulo--contacto h1 {
     font-size: 2rem;
   }
-
   .section--contacto .container-fluid {
     font-size: 0.9rem;
   }
-
   .section--contacto .container-fluid fieldset {
     padding: 1.65rem;
     width: 500px;
@@ -277,26 +240,21 @@
   .section--quienessomos .container-fluid .row {
     display: block;
   }
-
   .section--quienessomos .container-fluid .row .card {
     margin: 0 auto;
     width: 250px;
     height: 140px;
     margin-bottom: 15px;
   }
-
   .section--quienessomos .container-fluid .row .card .contadora {
     width: 70px;
   }
-
   .section--quienessomos .container-fluid .row .card h4 {
     font-size: 0.95rem;
   }
-
   .section--quienessomos .container-fluid .row .card p {
     visibility: hidden;
   }
-
   .section--quienessomos .container-fluid .row .card div .icon a {
     font-size: 0.85rem;
   }
@@ -305,14 +263,11 @@
   .section__div__botones {
     margin-top: 60px;
   }
-
   .section__div__botones a {
     font-size: 0.8rem;
   }
 }
-
 @media (max-width: 592px) {
-
   /* header */
   .header .header__nav .header__div__menu a {
     font-size: 0.75rem;
@@ -342,9 +297,7 @@
     width: 450px;
   }
 }
-
 @media (max-width: 576.5px) {
-
   /* header icono */
   .header .header__nav .header__icono {
     width: 80px;
@@ -360,7 +313,6 @@
   .section__div__botones {
     margin-top: 70px;
   }
-
   .section__div__botones a {
     font-size: 0.75rem;
   }
@@ -370,9 +322,7 @@
     width: 400px;
   }
 }
-
 @media (max-width: 505px) {
-
   /* títulos */
   .display-1 {
     font-size: 3.2rem;
@@ -391,11 +341,9 @@
   .section--contacto .section__div__titulo--contacto h1 {
     font-size: 1.9rem;
   }
-
   .section--contacto .container-fluid {
     font-size: 0.85rem;
   }
-
   .section--contacto .container-fluid fieldset {
     padding: 1.5rem;
     width: 400px;
@@ -404,14 +352,11 @@
   .section__div__botones {
     margin-top: 75px;
   }
-
   .section__div__botones a {
     font-size: 0.7rem;
   }
 }
-
 @media (max-width: 470px) {
-
   /* header icono */
   .header .header__nav .header__icono {
     width: 70px;
@@ -423,7 +368,6 @@
     width: 70px;
     height: auto;
   }
-
   .footer .row .footer__div__nav a {
     font-size: 0.85rem;
   }
@@ -448,9 +392,7 @@
     width: 350px;
   }
 }
-
 @media (max-width: 440px) {
-
   /* títulos */
   .display-1 {
     font-size: 2.5rem;
@@ -468,7 +410,6 @@
   .section--contacto .container-fluid {
     font-size: 0.8rem;
   }
-
   .section--contacto .container-fluid fieldset .btn {
     font-size: 0.7rem;
   }
