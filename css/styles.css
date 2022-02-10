@@ -403,8 +403,11 @@ h1, h2, h3, h4, h5, p, nav a {
   grid-template-areas: "header1" "imgInformacion" "footer1";
 }
 
+.section--servicios {
+  width: 100vw;
+}
 .section--servicios .section__div--servicios {
-  width: 95vw;
+  width: 100%;
 }
 .section--servicios .section__div--servicios .section__div__container {
   width: 100%;
@@ -416,10 +419,12 @@ h1, h2, h3, h4, h5, p, nav a {
 .section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item {
   background-color: rgba(255, 255, 255, 0.705);
   border-radius: 15px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 300px;
+  min-height: 550px;
 }
 .section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__icono {
   align-self: center;
@@ -443,6 +448,19 @@ h1, h2, h3, h4, h5, p, nav a {
   font-size: 0.8rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.section--servicios .section__div--servicios .section__div__container .glide .glide__arrows .glide__arrow {
+  border-radius: 180px;
+  border: none;
+  background-color: #151b25;
+  box-shadow: none;
+  text-shadow: none;
+}
+.section--servicios .section__div--servicios .section__div__container .glide .glide__arrows .glide__arrow--left {
+  left: 1em;
+}
+.section--servicios .section__div--servicios .section__div__container .glide .glide__arrows .glide__arrow--right {
+  right: 1em;
 }
 
 /*botones*/
