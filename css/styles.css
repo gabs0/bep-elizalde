@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, p, nav a {
   width: 100vw;
 }
 .section--servicios .section__div--servicios {
-  width: 100%;
+  width: 100vw;
 }
 .section--servicios .section__div--servicios .section__div__container {
   width: 100%;
@@ -429,6 +429,7 @@ h1, h2, h3, h4, h5, p, nav a {
 .section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__icono {
   align-self: center;
   margin-top: 15px;
+  margin-bottom: 10px;
   width: 90px;
   height: auto;
 }
@@ -445,7 +446,7 @@ h1, h2, h3, h4, h5, p, nav a {
 }
 .section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__tipo__detalle li {
   font-family: "Poppins", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }

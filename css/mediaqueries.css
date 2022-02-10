@@ -1,18 +1,11 @@
 @charset "UTF-8";
 /* media queries */
 @media (max-width: 1400px) {
-  .section--servicios .container-fluid .card-deck .card {
+  .section--servicios .section__div--servicios .section__div__titulo--servicios h1 {
+    font-size: 1.6rem;
+  }
+  .section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item {
     max-height: 750px;
-  }
-  .section--servicios .container-fluid .card-deck .card h2 {
-    font-size: 1.2rem;
-  }
-  .section--servicios .container-fluid .card-deck .card .servicio__icono {
-    width: 80px;
-    height: auto;
-  }
-  .section--servicios .container-fluid .card-deck .card .list-group {
-    font-size: 0.7rem;
   }
 }
 @media (max-width: 1200px) {
@@ -26,20 +19,15 @@
     font-size: 1.4rem;
   }
 
-  .section--servicios .container-fluid .card-deck .card {
-    min-width: 250px;
-    align-items: center;
-    margin: 15px;
+  .section--servicios .section__div--servicios .section__div__titulo--servicios h1 {
+    font-size: 1.5rem;
   }
-  .section--servicios .container-fluid .card-deck .card h2 {
-    font-size: 1.1rem;
-  }
-  .section--servicios .container-fluid .card-deck .card .servicio__icono {
-    width: 70px;
+  .section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__icono {
+    width: 85px;
     height: auto;
   }
-  .section--servicios .container-fluid .card-deck .card .list-group {
-    font-size: 0.65rem;
+  .section--servicios .section__div--servicios .section__div__container .glide .glide__track .glide__slides .glide__slide .servicios__item .servicio__tipo {
+    font-size: 1.35rem;
   }
 
   .section--quienessomos .container-fluid .row .card {
@@ -47,24 +35,6 @@
   }
   .section--quienessomos .container-fluid .row .card div .icon a {
     font-size: 0.9rem;
-  }
-}
-@media (max-width: 1000px) {
-  .section--servicios .container-fluid {
-    box-sizing: border-box;
-  }
-  .section--servicios .container-fluid .card-deck .card {
-    max-width: 100px;
-  }
-  .section--servicios .container-fluid .card-deck .card h2 {
-    font-size: 1rem;
-  }
-  .section--servicios .container-fluid .card-deck .card .servicio__icono {
-    width: 60px;
-    height: auto;
-  }
-  .section--servicios .container-fluid .card-deck .card .list-group {
-    font-size: 0.6rem;
   }
 }
 @media (max-width: 992px) {
